@@ -14,7 +14,7 @@
   <h1>ポンタカードの種類</h1>
   <h2><a href="https://point.recruit.co.jp/point/">公式webサイトはこちら</a></h2>
     <div class="row row-cols-1 row-cols-md-4 g-2">
-      <div class="col">
+    for ($i=1; $i<5; $i++)  <div class="col">{
         <div class="card h-70">
           <img src="https://point.recruit.co.jp/pontaweb/doc/common/assets/img/about/ponta/card/shell_ponta01.png" 
           class="card-img-top" alt="...">
@@ -22,11 +22,12 @@
             <h5 class="card-title">シェル</h5>
             <p class="card-text">シェルのポンタカード</p>
           </div>
-          <div class="card-footer">
-            <small class="text-muted">商品サイト</small>
+          <div class="card-footer">         
+              <a href="detail.html">商品ページ</a>
           </div>
-        </div>
+        </div> 
       </div>
+    }
       <div class="col">
         <div class="card h-70">
           <img src="https://point.recruit.co.jp/pontaweb/doc/common/assets/img/about/ponta/card/lowson_ponta01.png" 
@@ -36,7 +37,7 @@
             <p class="card-text">ローソンのポンタカード</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">商品サイト</small>
+             <a href="ro-son.html">商品ページ</a>
           </div>
         </div>
       </div>
@@ -48,19 +49,19 @@
             <p class="card-text">ゲオのポンタカード</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">商品サイト</small>
+            <a href="geo.html">商品ページ</a>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card h-70">
-          <img src="https://point.recruit.co.jp/pontaweb/doc/common/assets/img/about/ponta/card/sukiya_ponta01.png" class="card-img-top" alt="...">
+          <img src="https://point.recruit.co.jp/pontaweb/doc/common/assets/img/about/ponta/card/uniliv_ponta01.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">すき家</h5>
-            <p class="card-text">すき家のポンタカード</p>
+            <h5 class="card-title">ユニデイ</h5>
+            <p class="card-text">ユニデイのポンタカード</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">商品サイト</small>
+            <a href="yunidei.html">商品ページ</a>
           </div>
         </div>
       </div>
@@ -68,13 +69,13 @@
     <div class="row row-cols-1 row-cols-md-4 g-2">
       <div class="col">
         <div class="card h-70">
-          <img src="https://point.recruit.co.jp/pontaweb/doc/common/assets/img/about/ponta/card/ls100_ponta01.png" class="card-img-top" alt="...">
+          <img src="https://point.recruit.co.jp/pontaweb/doc/common/assets/img/about/ponta/card/onix_ponta01.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">ローソン１００周年</h5>
-            <p class="card-text">ローソン１００周年記念のポンタカード</p>
+            <h5 class="card-title">ONIX</h5>
+            <p class="card-text">ONIXのポンタカード</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">商品サイト</small>
+            <a href="onix.html">商品ページ</a>
           </div>
         </div>
       </div>
@@ -86,7 +87,7 @@
             <p class="card-text">ルートインホテルのポンタカード</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">商品サイト</small>
+            <a href="ru-toin.html">商品ページ</a>
           </div>
         </div>
       </div>
@@ -98,7 +99,7 @@
             <p class="card-text">スポーツヒマラヤのポンタカード</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">商品サイト</small>
+            <a href="himaraya.html">商品ページ</a>
           </div>
         </div>
       </div>
@@ -107,10 +108,10 @@
           <img src="https://point.recruit.co.jp/pontaweb/doc/common/assets/img/about/ponta/card/jal_ponta01.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">JAL</h5>
-            <p class="card-text">あいうえお</p>
+            <p class="card-text">JALのポンタカード</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">商品サイト</small>
+            <a href="jal.html">商品ページ</a>
           </div>
         </div>
       </div>
