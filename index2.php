@@ -13,8 +13,33 @@
 <body>
   <h1>ポンタカードの種類</h1>
   <h2><a href="https://point.recruit.co.jp/point/">公式webサイトはこちら</a></h2>
-    <div class="row row-cols-1 row-cols-md-4 g-2">
-    for ($i=1; $i<5; $i++)  <div class="col">{
+  <?php
+for ($num = 0; $num < 2; $num++){
+  print 'num = '.$num.'<br />';
+}
+?>
+
+<?php for ($i = 0; $i < 2; $i++){ ?>
+  <div class="row row-cols-1 row-cols-md-4 g-2">
+  <?php for ($j = 0; $j < 4; $j++){ ?>
+    <div class="col">
+      <div class="card h-70">
+        <img src="https://point.recruit.co.jp/pontaweb/doc/common/assets/img/about/ponta/card/shell_ponta01.png" 
+        class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">シェル</h5>
+          <p class="card-text">シェルのポンタカード</p>
+        </div>
+        <div class="card-footer">         
+            <a href="detail.html">商品ページ</a>
+        </div>
+      </div>
+    </div>
+  <?php } ?>
+  </div>
+<?php } ?>
+    <!-- <div class="row row-cols-1 row-cols-md-4 g-2">
+      <div class="col">
         <div class="card h-70">
           <img src="https://point.recruit.co.jp/pontaweb/doc/common/assets/img/about/ponta/card/shell_ponta01.png" 
           class="card-img-top" alt="...">
@@ -25,9 +50,8 @@
           <div class="card-footer">         
               <a href="detail.html">商品ページ</a>
           </div>
-        </div> 
+        </div>
       </div>
-    }
       <div class="col">
         <div class="card h-70">
           <img src="https://point.recruit.co.jp/pontaweb/doc/common/assets/img/about/ponta/card/lowson_ponta01.png" 
@@ -115,6 +139,6 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 </body>
 </html>
